@@ -1,14 +1,19 @@
 nav {
-    background-color: #32415c;
+    background-color: rgb(255,255,255);
     font-family: 'Open Sans', sans-serif;
+    color: rgb(103, 103, 107);
 }
 
 nav .brand-logo {
       padding-left: 30px;
       font-size: 23px;
       font-family: 'Lobster', cursive;
+      color: rgba(0, 0, 0, 0.63);
 }
 
 .container{
     padding-top: 50px;
+}
+body{
+    background-color: #FAFAFA;
 }
