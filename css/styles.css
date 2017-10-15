@@ -1,3 +1,14 @@
 nav {
     background-color: #32415c;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav .brand-logo {
+      padding-left: 30px;
+      font-size: 23px;
+      font-family: 'Lobster', cursive;
+}
+
+.container{
+    padding-top: 50px;
 }
