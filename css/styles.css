@@ -9,6 +9,7 @@ nav .brand-logo {
       font-size: 23px;
       font-family: 'Lobster', cursive;
       color: rgba(0, 0, 0, 0.63);
+      width: 100%;
 }
 
 .container{
