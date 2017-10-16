@@ -30,7 +30,7 @@
 
 
 
-    <ul id="slide-out" class="side-nav">
+    <ul id="slide-out" class="side-nav fixed">
         <li>
             <div class="user-view">
                 <div class="background">
@@ -51,7 +51,14 @@
     </ul>
 
     <script>
-        $(".brand-logo").sideNav();
+        $(".brand-logo").sideNav({
+                edge: 'left', // Choose the horizontal origin
+                closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                draggable: true, // Choose whether you can drag to open on touch screens,
+                onOpen: function(el) {$("body").css("padding-left","300px");},
+                onClose: function(el) {$("body").css("padding-left","0px");},
+            }
+        );
     </script>
 
     <div class="container">
