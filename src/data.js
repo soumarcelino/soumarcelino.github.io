@@ -40,27 +40,27 @@ export const data = [
         title: 'Formação',
         itens: [
           {
-            name: 'Estácio',
+            name: 'Análise e Desenvolvimento de Sistemas',
             date: '2018 - 2019',
             logo: 'https://logodownload.org/wp-content/uploads/2014/12/estacio-logo-faculdade-4.jpg'
           },
           {
-            name: 'Senai',
+            name: 'Programador de Dispositivos Móveis',
             date: '2018 - 2018',
             logo: 'https://4.bp.blogspot.com/-xRwcibY5wmw/V5pP6onzkrI/AAAAAAABEcs/cyDxmREQXmIMOvy_02LCl7NiBhB0CLaVwCLcB/s1600/senai-ce-cursos-gratuitos-inscricao.jpg'
           },
           {
-            name: 'Uni FB',
+            name: 'Ciência da Computação',
             date: '2017 - 2018',
             logo: 'https://portal.fbuni.edu.br/images/logo-login.png',
           },
           {
-            name: 'UTD - Universidade do trabalho digital',
+            name: 'Java com banco de dados',
             date: '2014 - 2014',
             logo: 'https://www.funcap.ce.gov.br/wp-content/uploads/sites/52/2014/08/universidade_trabalho_digital.png'
           },
           {
-            name: 'E.E.E.P. José de Barcelos',
+            name: 'Técnico Integrado em Informática',
             date: '2013 - 2015',
             duration: '1 ano e 3 meses',
             logo: 'http://indiceconsultores.com.br/wp-content/uploads/2017/02/logo_04.jpg'
